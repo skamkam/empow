@@ -1,7 +1,3 @@
-import time
-
-starttime = time.time()
-
 filename = input("Which madlib would you like? ")
 try:
     with open(filename, "r") as f:
